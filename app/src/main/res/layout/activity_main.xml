@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="身高"/>
+
+    <TextView
+        android:id="@+id/scale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="20sp"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="20dp"
+        android:background="@android:color/holo_green_dark"/>
+
+    <com.safy.ruler.RulerParent
+        android:id="@+id/ruler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </com.safy.ruler.RulerParent>
+
+
+</LinearLayout>
